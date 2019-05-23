@@ -46,7 +46,7 @@ export default {
       type: String,
 
       validator: value => {
-        return ['compact', 'normal'].includes(value)
+        return ['compact', 'normal', 'invisible'].includes(value)
       }
     }
   }
